@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 100vh;
+    background-color: rgb(176, 176, 230);
+}
+
+p{
+    color: black;
+}
+
+.box{
+    background-color: #ffcc00;
+    height: 100px;
+    width: 100px;
+} 
+
+.text {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: yellow;
+    }
+    25% {
+      color: tomato;
+    }
+    50% {
+      color: #5435d0;
+    }
+    75% {
+      color: #64f3b0;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  
